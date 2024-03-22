@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Site Blocker",
+    "description": "A free tool to block websites which kills your time",
+    "version": "1.0",
+    "icons" : {
+        "16" : "images/icon.png"
+    },
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "permissions" : ["activeTab", "tabs", "webNavigation"]
+  }
